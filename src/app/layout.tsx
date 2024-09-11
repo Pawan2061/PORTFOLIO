@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/ui/toggle-button";
 import { Navbar } from "@/components/Navbar";
+import { ThemeButton } from "@/components/Theme-button";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -31,10 +32,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       
       >
+        <ThemeButton/>
+        
         <Navbar/>
         <ThemeProvider
         attribute="class"
         defaultTheme="system" enableSystem disableTransitionOnChange> 
+      
         
         {children}</ThemeProvider>
        
