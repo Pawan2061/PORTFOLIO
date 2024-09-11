@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-2 py-2 "
     >
       {children}
     </nav>
@@ -109,13 +109,3 @@ export const ProductItem = ({
   );
 };
 
-// export const HoveredLink = ({ children, ...rest }: any) => {
-//   return (
-//     <Link
-//       {...rest}
-//       className="text-neutral-700 dark:text-neutral-200 hover:text-black "
-//     >
-//       {children}
-//     </Link>
-//   );
-// };
