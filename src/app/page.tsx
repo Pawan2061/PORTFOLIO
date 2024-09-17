@@ -6,6 +6,8 @@ import {
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
+import ProjectCards from "@/components/project-cards";
+
 export default function Home() {
   return (
     <div className="min-h-screen relative flex flex-col items-center  mt-32  space-y-8  max-w-2xl mx-auto  p-2">
@@ -55,10 +57,13 @@ export default function Home() {
           />
         </div>
       </div>
+
+
+
       <div className="flex flex-col justify-between">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+        <div><ProjectCards/>
+        </div>
+        
       </div>
       <div>3</div>
       <div>4</div>
