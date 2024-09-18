@@ -6,7 +6,7 @@ import {
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
-import ProjectCards from "@/components/project-cards";
+import { Arrow } from "@radix-ui/react-dropdown-menu";
 
 export default function Home() {
   return (
@@ -46,8 +46,6 @@ export default function Home() {
               <InstagramLogoIcon />
             </Link>
           </div>
-
-          
         </div>
         <div>
           <img
@@ -58,15 +56,51 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="flex flex-col justify-between max-w-xl gap-4">
+        <h3 className="text-lg font-bold text-gray-800 dark:text-white">
+          Work Experience
+        </h3>
 
+        <div className=" flex flex-col bg-white border border-t-4 border-t-gray-600 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:border-t-gray-500 dark:shadow-neutral-700/70">
+          <div className="p-4 md:p-5 ">
+            <a href="#" className="cursor-pointer">
+              Hyperce Technologies Pvt Ltd
+            </a>
 
-      <div className="flex flex-col justify-between">
-        <div><ProjectCards/>
+            <p className="mt-2 text-gray-500 dark:text-neutral-400">
+              In hyperce I have worked on projects that uses nestjs,graphql and
+              typeorm as backend technologies and nextjs for frontend.
+            </p>
+            <div>
+              <h1 className="text-xs   text-white font-medium">
+                May,2024 &#x2192; Sep,2024
+              </h1>
+            </div>
+          </div>
         </div>
-        
+
+
+        <div className=" flex flex-col bg-white border border-t-4 border-t-gray-600 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:border-t-gray-500 dark:shadow-neutral-700/70">
+          <div className="p-4 md:p-5 ">
+            <a href="#" className="cursor-pointer">
+              Technial Lead at Anova Club,CSE-Data-Science Jain University
+            </a>
+
+            <p className="mt-2 text-gray-500 dark:text-neutral-400">
+              In hyperce I have worked on projects that uses nestjs,graphql and
+              typeorm as backend technologies and nextjs for frontend.
+            </p>
+            <div>
+              <h1 className="text-xs   text-white font-medium">
+                May,2024 &#x2192; Sep,2024
+              </h1>
+            </div>
+          </div>
+        </div>
+
       </div>
+
       <div>3</div>
-      <div>4</div>
     </div>
   );
 }
