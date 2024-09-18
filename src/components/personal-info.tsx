@@ -1,21 +1,9 @@
-import { ModeToggle } from "@/components/ui/toggle-button";
-import Link from "next/link";
-import {
-  InstagramLogoIcon,
-  GitHubLogoIcon,
-  TwitterLogoIcon,
-} from "@radix-ui/react-icons";
-import { Button } from "@/components/ui/button";
-import { projectdata } from "@/data/projects";
-import { a, div } from "framer-motion/client";
-import WorkExperience from "@/components/work-experience";
-import ProjectCards from "@/components/project-cards";
+import { GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { Link } from "lucide-react";
 
-export default function Home() {
-  return (
-    <>
-    <main className="min-h-screen relative flex flex-col items-center mt-32 space-y-8 max-w-2xl mx-auto p-2">
-      <div className="flex justify-between items-center">
+export default  function PersonalInfo(){
+    return(
+        <div className="flex justify-between items-center">
         <div className="flex-1 space-y-5">
           <h1 className="font-bold">
             Pawan Pandey{" "}
@@ -60,24 +48,5 @@ export default function Home() {
           />
         </div>
       </div>
-      
-      
-
-
-        <WorkExperience/>
-        <ProjectCards/>
-      
-       
-     
-
-     
-     
-     
-    </main>
-
-
-    </>
-
-   
-  );
+    )
 }

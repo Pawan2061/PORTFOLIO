@@ -25,9 +25,12 @@ function Navbardemo({ className }: { className?: string }) {
         <ul className="flex justify-between space-x-5">
           <Button variant="link">
             <Link href="/aboutme">About me</Link></Button>
-            <Button variant="link">Projects</Button>
+            <a href="#projects"> <Button variant="link">Projects</Button></a>
+           
             <Button variant="link">Contact</Button>
-            <Button variant="link">ME</Button>
+            <a href="#work"> <Button variant="link">ME</Button></a>
+          
+           
 
         </ul>
        
