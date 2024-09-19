@@ -11,8 +11,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     // rest of the code
+   
   },
   plugins: [addVariablesForColors],
+  
 };
 
 function addVariablesForColors({ addBase, theme }: any) {
