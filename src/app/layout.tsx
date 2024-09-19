@@ -37,6 +37,7 @@ export default function RootLayout({
         <Navbar/>
 
         <ThemeProvider
+        
         attribute="class"
         defaultTheme="system" enableSystem disableTransitionOnChange> 
       

@@ -24,7 +24,7 @@ function Navbardemo({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <ul className="flex justify-between space-x-5">
           <Button variant="link">
-            <Link href="/aboutme">About me</Link></Button>
+            <a href="#skills">Skills</a></Button>
             <a href="#projects"> <Button variant="link">Projects</Button></a>
            
             <Button variant="link">Contact</Button>

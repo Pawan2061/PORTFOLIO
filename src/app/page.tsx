@@ -10,6 +10,7 @@ import { projectdata } from "@/data/projects";
 import { a, div } from "framer-motion/client";
 import WorkExperience from "@/components/work-experience";
 import ProjectCards from "@/components/project-cards";
+import Skill from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -66,6 +67,11 @@ export default function Home() {
 
         <WorkExperience/>
         <ProjectCards/>
+
+      
+          <Skill/>
+
+          
       
        
      
