@@ -16,6 +16,10 @@ export function Navbar() {
 
 function Navbardemo({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+
+  // Remove this in future
+  console.log(active)
+
   return (
     <div
       className={cn("fixed top-10 inset-x-0 max-w-xl max-h-10 mx-auto z-50   ", className)}

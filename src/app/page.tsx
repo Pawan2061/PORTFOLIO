@@ -9,6 +9,7 @@ import WorkExperience from "@/components/work-experience";
 import ProjectCards from "@/components/project-cards";
 import Skill from "@/components/Skills";
 import AboutMe from "@/components/AboutMe";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
                 href="mailto:pandeypawan2061@gmail.com"
                 className="cursor-pointer"
               >
-                Let's contact
+                Let&apos;s contact
               </a>
             </span>
           </h1>
@@ -52,9 +53,11 @@ export default function Home() {
         </div>
 
         <div>
-          <img
+          <Image
             src="https://pbs.twimg.com/profile_images/1750126817590087680/7AydU7yH_400x400.jpg"
             alt="Profile Picture"
+            width={112}
+            height={112}
             className="relative flex shrink-0 overflow-hidden rounded-xl size-28"
           />
         </div>

@@ -4,6 +4,7 @@ import {
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import { Link } from "lucide-react";
+import Image from "next/image";
 
 export default function PersonalInfo() {
   return (
@@ -57,7 +58,9 @@ export default function PersonalInfo() {
       </div>
 
       <div>
-        <img
+        <Image 
+        height={112}
+        width={112}
           src="https://pbs.twimg.com/profile_images/1750126817590087680/7AydU7yH_400x400.jpg"
           alt="Profile Picture"
           className="relative flex shrink-0 overflow-hidden rounded-xl size-28"
