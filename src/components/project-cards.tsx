@@ -13,6 +13,7 @@ export default function ProjectCards() {
       <h1 className="text-xl font-semibold hover:underline ">My Projects</h1>
       {Array.from({ length: 4 }).map((_, index) => (
         <div
+         key={index}
         
           className="max-w-xl    p-6  border-gray-200 rounded-lg shadow "
         >

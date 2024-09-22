@@ -1,7 +1,7 @@
 export default function WorkExperience(){
     return(
         <section id="work" className="flex flex-col justify-between max-w-xl gap-4">
-        <h3 className="text-lg mx-auto  font-bold text-gray-800 dark:text-white">
+        <h3 className="text-lg mx-auto  font-bold text-gray-800 dark:text-white hover:underline">
           Work Experience
         </h3>
 

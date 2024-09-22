@@ -11,6 +11,7 @@ import { a, div } from "framer-motion/client";
 import WorkExperience from "@/components/work-experience";
 import ProjectCards from "@/components/project-cards";
 import Skill from "@/components/Skills";
+import AboutMe from "@/components/AboutMe";
 
 export default function Home() {
   return (
@@ -70,6 +71,8 @@ export default function Home() {
 
       
           <Skill/>
+
+          <AboutMe/>
 
           
       
