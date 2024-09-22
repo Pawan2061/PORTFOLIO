@@ -16,7 +16,7 @@ export default function PersonalInfo() {
               href="mailto:pandeypawan2061@gmail.com"
               className="cursor-pointer"
             >
-              Let's talk
+              Let&apos;s talk
             </a>
           </span>
         </h1>

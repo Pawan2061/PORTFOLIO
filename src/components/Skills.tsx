@@ -1,4 +1,3 @@
-import { Badge } from "./ui/badge";
 
 import { skills } from "@/data/skills";
 

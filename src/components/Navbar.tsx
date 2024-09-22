@@ -1,10 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import {  Menu, MenuItem, ProductItem } from "../components/ui/navbar-menu";
+import {  Menu,  } from "../components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
-import { ModeToggle } from "./ui/toggle-button";
-import Link from "next/link";
+
 
 export function Navbar() {
   return (
