@@ -1,13 +1,10 @@
-import { ModeToggle } from "@/components/ui/toggle-button";
 import Link from "next/link";
 import {
   InstagramLogoIcon,
   GitHubLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
-import { Button } from "@/components/ui/button";
-import { projectdata } from "@/data/projects";
-import { a, div } from "framer-motion/client";
+
 import WorkExperience from "@/components/work-experience";
 import ProjectCards from "@/components/project-cards";
 import Skill from "@/components/Skills";

@@ -1,7 +1,6 @@
 "use client";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import { div } from "framer-motion/client";
-import { Button } from "./ui/button";
+
 import Link from "next/link";
 
 export default function ProjectCards() {
