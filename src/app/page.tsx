@@ -25,7 +25,7 @@ export default function Home() {
                 href="mailto:pandeypawan2061@gmail.com"
                 className="cursor-pointer"
               >
-                Let's talk
+                Let's contact
               </a>
             </span>
           </h1>

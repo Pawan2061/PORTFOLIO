@@ -17,7 +17,7 @@ export default  function PersonalInfo(){
             </span>
           </h1>
           <p className="max-w-sm text-pretty font-mono text-sm">
-            Full-stack web developer exploring new opportunities and excited to
+            Full-stack data  developer exploring new opportunities and excited to
             work on exciting gigs.
           </p>
 
