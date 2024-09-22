@@ -7,6 +7,21 @@ const nextConfig = {
             hostname: "pbs.twimg.com",
             port: '',
           },
+          {
+            protocol: 'https',
+            hostname: "www.freecodecamp.org",
+            port: '',
+          },
+          {
+            protocol: 'https',
+            hostname: "nextjs.org",
+            port: '',
+          },
+          {
+            protocol: 'https',
+            hostname: "reactjs.org",
+            port: '',
+          },
         ],
       },
     
