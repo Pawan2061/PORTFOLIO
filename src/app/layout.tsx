@@ -41,9 +41,11 @@ export default function RootLayout({
         attribute="class"
         defaultTheme="system" enableSystem disableTransitionOnChange> 
       
+      <BackgroundBeams/>
         
         {children}
-        <BackgroundBeams/></ThemeProvider>
+        
+        </ThemeProvider>
        
       </body>
     </html>
