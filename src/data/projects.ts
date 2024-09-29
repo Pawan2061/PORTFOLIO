@@ -1,51 +1,44 @@
 export const  projectdata=[
     {
-      "title": "Project One",
-      "description": "A cool project that does amazing things.",
+      "title": "Voice genrator",
+      "description": "A cool project that does can translate text-to voice using google speech api and built using Reactjs..",
       "imageUrl": "/placeholder.svg?height=120&width=240",
-      "technologies": ["React", "Node.js", "MongoDB"],
-      "projectUrl": "https://project-one.com",
-      "githubUrl": "https://github.com/yourusername/project-one"
+      "technologies": ["React", "Node.js", ""],
+      "githubUrl": "https://github.com/Pawan2061/VoiceGenerator",
+      "projectUrl": "https://voicegenerator.vercel.app/",
     },
     {
-      "title": "Project Two",
-      "description": "A unique project with innovative features.",
+      "title": "Portfolio Website",
+      "description": "My portfolio website built in Nextjs which gives brief demo of my experience ,skills and tech-stacks that I use.",
       "imageUrl": "/placeholder.svg?height=120&width=240",
       "technologies": ["Next.js", "TypeScript", "PostgreSQL"],
-      "projectUrl": "https://project-two.com",
-      "githubUrl": "https://github.com/yourusername/project-two"
+      "projectUrl": "https://pawanportfolio-pied.vercel.app/",
+      "githubUrl": "https://github.com/Pawan2061/PORTFOLIO"
     },
     {
-      "title": "Project Three",
-      "description": "An open-source tool for developers.",
+      "title": "Twitter backend clone",
+      "description": "This is the backend of twitter clone using Nestjs framework and prisma as an ORM for database. ",
       "imageUrl": "/placeholder.svg?height=120&width=240",
-      "technologies": ["Python", "Flask", "SQLite"],
-      "projectUrl": "https://project-three.com",
-      "githubUrl": "https://github.com/yourusername/project-three"
+      "technologies": ["Nestjs", "Prisma orm", "Minio bucket"],
+      "projectUrl": "https://github.com/Pawan2061/Twitter_Clone-",
+      "githubUrl": "https://github.com/Pawan2061/Twitter_Clone-"
     },
     {
-      "title": "Project Four",
-      "description": "A mobile app for tracking fitness goals.",
+      "title": "Learning Management System Backend.",
+      "description": "This is a nestjs application for learning management system. I have used Nestjs for backend part and use Prisma orm to manage psql database.",
       "imageUrl": "/placeholder.svg?height=120&width=240",
-      "technologies": ["React Native", "Express", "MySQL"],
-      "projectUrl": "https://project-four.com",
-      "githubUrl": "https://github.com/yourusername/project-four"
+      "technologies": ["Nest.js", "Prisma", "PostgreSQL"],
+      "projectUrl": "https://github.com/Pawan2061/Lms",
+      "githubUrl": "https://github.com/Pawan2061/Lms"
     },
     {
-      "title": "Project Five",
-      "description": "A platform for online learning and collaboration.",
+      "title": "Filmverse",
+      "description": "This is a backend application created using expressjs for movies api where you can fetch movies as well as create a wishlist to watch it later",
       "imageUrl": "/placeholder.svg?height=120&width=240",
-      "technologies": ["Vue.js", "Django", "PostgreSQL"],
-      "projectUrl": "https://project-five.com",
-      "githubUrl": "https://github.com/yourusername/project-five"
+      "technologies": ["Express.js", "Prisma", "PostgreSQL"],
+      "projectUrl": "https://github.com/Pawan2061/FilmVerse",
+      "githubUrl": "https://github.com/Pawan2061/FilmVerse"
     },
-    {
-      "title": "Project Six",
-      "description": "A real-time chat application.",
-      "imageUrl": "/placeholder.svg?height=120&width=240",
-      "technologies": ["Socket.io", "Node.js", "Redis"],
-      "projectUrl": "https://project-six.com",
-      "githubUrl": "https://github.com/yourusername/project-six"
-    }
+   
   
   ]
