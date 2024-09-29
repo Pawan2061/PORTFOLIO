@@ -26,7 +26,7 @@ export default function PersonalInfo() {
           work on exciting gigs.
         </p>
         {socialLinks.map((social, i) => (
-          <div className="flex space-x-2">
+          <div key={i} className="flex space-x-2">
             <Link
               href={social.github}
               target="_blank"
