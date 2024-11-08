@@ -14,6 +14,7 @@ export function Navbar() {
 
 function Navbardemo({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+  console.log(active);
 
   return (
     <div
