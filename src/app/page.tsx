@@ -14,8 +14,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen relative inset-0 rounded-full flex flex-col items-center mt-32 space-y-8 max-w-2xl mx-auto p-2  ">
-        <div className="flex justify-between items-center">
+      <main className="min-h-screen relative inset-0  overflow-hidden flex flex-col items-center mt-32 space-y-8 max-w-2xl mx-auto p-2  ">
+        <div className="flex justify-between items-center ">
           <div className="flex-1 space-y-5">
             <h1 className="font-bold">
               Pawan Pandey{" "}
@@ -33,7 +33,7 @@ export default function Home() {
               to work on exciting gigs.
             </p>
 
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 ">
               <Link
                 href="https://github.com"
                 target="_blank"

@@ -15,33 +15,31 @@ export function Navbar() {
 function Navbardemo({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
 
-  // Remove this in future
-  console.log(active);
-
   return (
     <div
-      className={cn(
-        "fixed top-10 inset-x-0 max-w-xl max-h-10 mx-auto z-50   ",
-        className
-      )}
+      className={cn("fixed top-10 inset-x-0 max-w-xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <ul className="flex justify-between space-x-5">
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex justify-between space-x-5">
           <Button variant="link">
             <a href="#skills">Skills</a>
           </Button>
           <a href="#projects">
-            {" "}
             <Button variant="link">Projects</Button>
           </a>
           <a href="#work">
-            <Button variant="link">Work</Button>{" "}
+            <Button variant="link">Work</Button>
           </a>
-
           <a href="#me">
             <Button variant="link">ME</Button>
           </a>
         </ul>
+
+        {/* Mobile Display */}
+        <div className="md:hidden flex justify-center">
+          <span className="text-lg font-semibold">Pawan Pandey</span>
+        </div>
       </Menu>
     </div>
   );
