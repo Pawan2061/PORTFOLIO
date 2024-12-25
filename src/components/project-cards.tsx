@@ -40,9 +40,6 @@ export default function ProjectCards() {
           </Link>
         </div>
       ))}
-      {/* {Array.from({ length: 4 }).map((_, index) => ( */}
-
-      {/* ))} */}
     </section>
   );
 }

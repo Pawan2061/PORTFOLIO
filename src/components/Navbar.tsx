@@ -21,7 +21,6 @@ function Navbardemo({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        {/* Desktop Menu */}
         <ul className="hidden md:flex justify-between space-x-5">
           <Button variant="link">
             <a href="#skills">Skills</a>
@@ -37,7 +36,6 @@ function Navbardemo({ className }: { className?: string }) {
           </a>
         </ul>
 
-        {/* Mobile Display */}
         <div className="md:hidden flex justify-center">
           <span className="text-lg font-semibold">Pawan Pandey</span>
         </div>
