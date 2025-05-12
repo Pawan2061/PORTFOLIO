@@ -23,9 +23,14 @@ const nextConfig = {
         port: "",
       },
       {
-        protocol:"https",
-        hostname:"pbs.twimg.com",
-        port:""
+        protocol: "https",
+        hostname: "www.drupal.org",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "pbs.twimg.com",
+        port: "",
       },
       {
         protocol: "https",
@@ -39,11 +44,10 @@ const nextConfig = {
       },
       { protocol: "https", hostname: "banner2.cleanpng.com", port: "" },
       {
-        protocol:"https",
-        hostname:"upload.wikimedia.org",
-        port:""
-      }
-
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+        port: "",
+      },
     ],
   },
 };
